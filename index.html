@@ -13,53 +13,71 @@
     <link href="http://cdn.bootcss.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet">
  </head>
     <body>
-    	<nav class="navbar navbar-inverse navbar-fixed-top">
-          <div class="container">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <a class="navbar-brand" href="#">Sench Tech</a>
+        <!-- Site Header -->
+        <div class="site-header bg-white">
+            <!-- Navbar -->
+            <div class="navbar" role="navigation">
+                <div class="container">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="menu-container">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse"><i class="ion-navicon"></i></button>
+    
+                        <!-- Navbar Brand -->
+                        <div class="navbar-brand">
+                            <a href="#">
+                                <img class="default-logo" src="images/logo.png" style="height:50px;width:250px;" alt="Logo" />
+                            </a>
+                        </div>
+                        <!-- End Navbar Brand -->
+    
+                        <!-- End Header Inner Right -->
+                    </div>
+                    <!-- End Menu Container -->
+    
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse navbar-responsive-collapse">
+                        <div class="menu-container">
+                            <ul class="nav navbar-nav navbar-right">
+                              <li><a href="#">首页</a></li>
+                                <li class="dropdown">
+                                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                    云产品 <span class="caret"></span>
+                                  </a>
+                                  <ul class="dropdown-menu">
+                                    <li><a href="#">Microsoft Azure</a></li>
+                                    <li><a href="#">Microsoft Office365</a></li>
+                                    <li><a href="#">Oracle 数据库公有云服务</a></li>
+                                    <li><a href="#">VmWare</a></li>
+                                    <li><a href="#">阿里云产品</a></li>
+                                    <li><a href="#">青云产品</a></li>
+                                    <li><a href="#">易讯通产品</a></li>
+                                  </ul>
+                                </li>
+                                <li class="dropdown">
+                                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                    解决方案 <span class="caret"></span>
+                                  </a>
+                                  <ul class="dropdown-menu">
+                                    <li><a href="#">ADG数据灾备</a></li>
+                                    <li><a href="#">TSM数据灾备</a></li>
+                                    <li><a href="#">存储安全运维分析系统技术方案</a></li>
+                                    <li><a href="#">混合云产品介绍</a></li>
+                                    <li><a href="#">数据智能管理系统技术方案</a></li>
+                                  </ul>
+                                </li>
+                                <li><a href="#about">支持服务</a></li>
+                                <li><a href="#about">成功案例</a></li>
+                                <li><a href="#about">公司简介</a></li>
+                                <li><a href="#about">关于我们</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- .navbar-collapse-->
+                </div>
             </div>
-            <div id="navbar" class="collapse navbar-collapse">
-              <ul class="nav navbar-nav">
-                <li><a href="#">首页</a></li>
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                  	云产品 <span class="caret"></span>
-                  </a>
-                  <ul class="dropdown-menu">
-                    <li><a href="#">Microsoft Azure</a></li>
-                    <li><a href="#">Microsoft Office365</a></li>
-                    <li><a href="#">Oracle 数据库公有云服务</a></li>
-                    <li><a href="#">VmWare</a></li>
-                    <li><a href="#">阿里云产品</a></li>
-                    <li><a href="#">青云产品</a></li>
-                    <li><a href="#">易讯通产品</a></li>
-                  </ul>
-                </li>
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                  	解决方案 <span class="caret"></span>
-                  </a>
-                  <ul class="dropdown-menu">
-                    <li><a href="#">ADG数据灾备</a></li>
-                    <li><a href="#">TSM数据灾备</a></li>
-                    <li><a href="#">存储安全运维分析系统技术方案</a></li>
-                    <li><a href="#">混合云产品介绍</a></li>
-                    <li><a href="#">数据智能管理系统技术方案</a></li>
-                  </ul>
-                </li>
-                <li><a href="#about">支持服务</a></li>
-                <li><a href="#about">成功案例</a></li>
-                <li><a href="pages/about.html">公司简介</a></li>           
-              </ul>
-            </div><!--/.nav-collapse -->
-          </div>
-        </nav>
+            <!-- End Navbar -->
+        </div>
+        <!-- End Site Header -->
     	<div id="myCarousel" class="carousel slide" data-ride="carousel">
           <!-- Indicators -->
           <ol class="carousel-indicators">
@@ -185,7 +203,7 @@
     
           <!-- /END THE FEATURETTES -->
         </div><!-- /.container -->
-          <!--foot-->
+        <!--foot-->
 		<!--公共脚部 -->
 		<section class="elian-footer" style="background: #ECECEC; padding-top: 20px;">
 			<div class="container">
@@ -223,10 +241,10 @@
 									<li>
 										<p>关于信诚</p>
 									</li>
-									<li><a target="_blank" href="pages/about.html">公司简介</a></li>
-									<li><a target="_blank" href="pages/about.html#anli">成功案例</a></li>
-									<li><a target="_blank" href="pages/about.html#jiaru">加入信诚</a></li>
-									<li><a target="_blank" href="pages/about.html#lianxi">联系我们</a></li>
+									<li><a target="_blank" href="pages/introduction.html">公司简介</a></li>
+									<li><a target="_blank" href="pages/introduction.html#anli">成功案例</a></li>
+									<li><a target="_blank" href="pages/introduction.html#jiaru">加入信诚</a></li>
+									<li><a target="_blank" href="pages/introduction.html#lianxi">联系我们</a></li>
 								</ul>
 							</div>
 						</div>

@@ -40,19 +40,19 @@
                 <div class="collapse navbar-collapse navbar-responsive-collapse">
                     <div class="menu-container">
                         <ul class="nav navbar-nav navbar-right">
-                          <li><a href="../index.html">首页</a></li>
+                          <li><a href="../../index.html">首页</a></li>
                             <li class="dropdown">
                               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
                                 云产品 <span class="caret"></span>
                               </a>
                               <ul class="dropdown-menu">
-                                <li><a href="#">Microsoft Azure</a></li>
-                                <li><a href="#">Microsoft Office365</a></li>
-                                <li><a href="#">Oracle 数据库公有云服务</a></li>
-                                <li><a href="#">VmWare</a></li>
-                                <li><a href="#">阿里云产品</a></li>
-                                <li><a href="#">青云产品</a></li>
-                                <li><a href="#">易讯通产品</a></li>
+                                <li><a href="../product/azure.html">Microsoft Azure</a></li>
+                                <li><a href="../product/office365.html">Microsoft Office365</a></li>
+                                <li><a href="../product/oracle.html">Oracle 数据库公有云服务</a></li>
+                                <li><a href="../product/vmware.html">VmWare</a></li>
+                                <li><a href="../product/alibaba.html">阿里云产品</a></li>
+                                <li><a href="../product/qingyun.html">青云产品</a></li>
+                                <li><a href="../product/yixuntong.html">易讯通产品</a></li>
                               </ul>
                             </li>
                             <li class="dropdown">
@@ -60,17 +60,17 @@
                                 解决方案 <span class="caret"></span>
                               </a>
                               <ul class="dropdown-menu">
-                                <li><a href="#">ADG数据灾备</a></li>
-                                <li><a href="#">TSM数据灾备</a></li>
-                                <li><a href="#">存储安全运维分析系统技术方案</a></li>
-                                <li><a href="#">混合云产品介绍</a></li>
-                                <li><a href="#">数据智能管理系统技术方案</a></li>
+                                <li><a href="adg.html">ADG数据灾备</a></li>
+                                <li><a href="tsm.html">TSM数据灾备</a></li>
+                                <li><a href="safe.html">存储安全运维分析系统技术方案</a></li>
+                                <li><a href="blend.html">混合云产品介绍</a></li>
+                                <li><a href="data_manage.html">数据智能管理系统技术方案</a></li>
                               </ul>
                             </li>
-                            <li><a href="#about">支持服务</a></li>
-                            <li><a href="#about">成功案例</a></li>
-                            <li><a href="#about">公司简介</a></li>
-                            <li><a href="#about">关于我们</a></li>
+                            <li><a href="../service.html">支持服务</a></li>
+                            <li><a href="../customer.html">成功案例</a></li>
+                            <li><a href="../introduction.html">公司简介</a></li>
+                            <li><a href="../about.html">关于我们</a></li>
                         </ul>
                     </div>
                 </div>
@@ -82,6 +82,9 @@
     <!-- End Site Header -->
 		<section class="body-content" style="margin-top:100px;">
             <div class="container">
+            	<div class="text-center" style="margin-bottom:50px;">
+                        <h1>TSM数据灾备解决方案</h1>
+                </div>
                 <h2>
                     IBM Tivoli TSM从容应对数据爆炸性增长
                 </h2>
@@ -132,7 +135,7 @@
                     </p>
                 </blockquote>
                 <ol>
-                 <li>简化部署与管理
+                 <li class="font20px">简化部署与管理
                  	<ol>
                     	<li class="pdt20px" style="font-size:15px;">
                         	经过重新设计的报表系统和监控功能：大量使用预置的新型报表；报表是完全可定制的； 利用可定制的指示板提供接近实时的监控；无需额外许可。
@@ -142,7 +145,7 @@
                         </li>
                     </ol>
                  </li>
-                 <li class="pdt20px">数据管理的可扩展性得到改善
+                 <li class="pdt20px font20px">数据管理的可扩展性得到改善
                  	<ol>
                     	<li class="pdt20px" style="font-size:15px;">
                         	TSM 6 可以管理的目标文件量是已经处于行业领先地位的 TSM 5.5的两倍 ：通过单一 TSM服务器可以支持多达 10 亿个目标文件（结果可能会根据环境、系统/处理器、数据类型、过期策略、数据变化率等因素的不同而有所不同）。
@@ -152,67 +155,118 @@
                         </li>
                     </ol>
                  </li>
-                 <li class="pdt20px">数据备份与处理性能大幅度提升
-                 	<ol>
+                 <li class="pdt20px font20px">数据备份与处理性能大幅度提升
+                 	<ul>
                     	<li class="pdt20px" style="font-size:15px;">
                         	改进后的备份吞吐量可以减少备份时间窗口，或增加备份时间窗口中的数据量。
                         </li>
-                       
-                    </ol>
+                    </ul>
+                 </li>
+                 <li class="pdt20px font20px">内置重复数据删除功能，增强数据简化
+                 <div class="pdt20px" style="text-align: center;">
+                	<img src="../../images/tsm2.png" style="text-align:center">
+                 </div>
+                 	<ul>
+                    	<li class="pdt20px" style="font-size:15px;">
+                        	TSM 6 的扩充版为顺序存取的磁盘存储池提供了重复数据删除功能，无额外费用；相对于磁带而言，数据恢复时间得到了改进，可以在磁盘上存储更多的数据恢复点，且减少了所需的存储容量；支持后期处理/不影响备份性能/自动回收空间。
+                        </li>
+                        
+                    </ul>
+                 </li>
+                 <li class="pdt20px font20px">
+                 	改进与 VMware 或 NetApp / N series NAS Filers 的整合，满足严格的恢复时间点目标 、恢复时间目标和业务连续性需求
                  </li>
                 </ol>
                 <blockquote>
                     <p>
-                       Data Guard提供了灾难保护并防止数据丢失：
+                       IBM TSM主要功能介绍
                     </p>
                 </blockquote>
                 <ol>
-                 <li>维护主数据库的几个事务一致的副本</li>
-                 <li>防止灾难、数据损坏和用户错误</li>
-                 <li>无需昂贵且负载的HW/SW镜像</li>
+                 <li class="font20px">
+                 	先进的数据恢复技术，缩短备份和恢复时间
+                    <ul>
+                    	<li class="pdt20px" style="font-size:15px;">
+                        	TSM存储管理软件能够为用户提供专业的数据备份功能，能够提供多种级别的数据备份，如文件系统备份，应用系统备份，数据库备份，邮件系统备份，操作系统备份等不同的备份类别。TSM能够支持绝大多数主流操作系统平台，主流的应用，根据用户需求为不同的用户定制合适的备份解决方案。
+                        </li>
+                    </ul>
+                 </li>
+                 <li class="pdt20px font20px">
+                 	流程化的灾难恢复管理
+                    <ul>
+                    	<li class="pdt20px" style="font-size:15px;">
+                        	TSM内置一个灾难恢复管理模块（DRM），通过DRM能够对灾难恢复进行规范的流程管理，包括离线磁带的跟踪和回收，能够对磁带状态进行自动设置更新，并能够对整个恢复流程提供所需要的配置信息，恢复脚本，可以指导管理员顺利的完成整个恢复过程。
+                        </li>
+                    </ul>
+                 </li>
+                 <li class="pdt20px font20px">
+                 	专业的数据归档管理功能
+                    <ul>
+                    	<li class="pdt20px" style="font-size:15px;">
+                        	TSM存储管理软件提供专业的文件系统数据归档功能。TSM提供独立的归档策略，能够为不同的数据对象指定不同的归档保存时间，并能够在归档时提供文件本地保留或从本地删除不同的选择。
+                        </li>
+                    </ul>
+                 </li>
+				<li class="pdt20px font20px">
+                 	利用分层存储提高效率、节约资源
+                    <ul>
+                    	<li class="pdt20px" style="font-size:15px;">
+                        	TSM存储管理软件能够提供专业的文件系统分级存储功能，能够将磁带等存储设备作为文件系统的二级存储，定制策略将访问较少的文件从服务器的文件系统迁移到TSM所管理的磁带库中，并在本地保留一个存根文件，整个过程可以自动完成，也可以手动迁移。当应用系统或者管理员访问该文件时，TSM将在后台自动将文件迁移回本地。
+                        </li>
+                    </ul>
+                 </li>
                 </ol>
-                <h2>
-                	Oracle Data Guard的优点
-                </h2>
-                <ol>
-                	<li>
-                    	灾难恢复与高可用性——主数据库与备用数据库之间可轻松进行故障切换/转换
-                    </li>
-                    <li>
-                    	完整的数据保护——实现零数据丢失防止数据损坏
-                    </li>
-                    <li>
-                    	有效利用系统资源——备用数据库可用于报表操作、备份、查询
-                    </li>
-                    <li>
-                    	平衡数据可用性和性能——再恢复网络连接之后自动重新同步
-                    </li>
-                    <li>
-                    	集中的简单的管理——用于管理和监控
-                    </li>
-                </ol>
-                <h2>
-                	安装条件
-                </h2>
                 <blockquote>
                     <p>
-                       运行Data Guard需要具备的条件：
+                       IBM TSM 扩展功能介绍
                     </p>
                 </blockquote>
                 <ol>
-                	<li>
-                    	在主库和从库的所有机器上必须安装同一个版本的Oracle企业版。
-                    </li>
-                    <li>
-                    	主库必须运行在归档模式下。
-                    </li>
-                    <li>
-                    	主库和从库的操作系统必须一样（允许版本不同），从库可以使用与主库不同的目录结构。
-                    </li>
-                    <li>
-                    	主从库硬件系统的体系结果必须相同。比如主库运行在64位的Sun Sparc系统上，如果从库是32位的Linux Inter系统则不允许。主从库硬件的配置可以不同，比如：CPU数量、内存大小、存储配置等。
-                    </li>
+                 <li class="font20px">
+                 	Tivoli Storage Manager for Storage Area Networks
+                    <ul>
+                    	<li class="pdt20px" style="font-size:15px;">
+                        	允许与SAN连接的存储管理系统服务器和存储管理客户端计算机最大限度的使用直接网络连接到存储。该扩展软件允许服务器和客户端计算机通过SAN而不是LAN，将大量的备份/恢复以及存档/恢复，直接传输到磁带或到存储管理系统磁盘存储层。这将会极大的减少对基于LAN的数据保护的影响，也会同时减少客户端和服务器CPU的使用。
+                        </li>
+                    </ul>
+                 </li>
+                 <li class="pdt20px font20px">
+                 	IBM Tivoli Storage Manager for Databases
+                    <ul>
+                    	<li class="pdt20px" style="font-size:15px;">
+                        	IBM Tivoli数据库存储管理器能够提供对Oracle、DB2、Informix和Microsoft SQL Server数据库的数据保护。IBM Tivoli数据库存储管理器的功能包含在IBM DB2、Informix通用数据库包内，不必再单独购买。通过TSM for DB实现重要业务数据24x7的可用性,帮助保持数据完整性。
+                        </li>
+                    </ul>
+                 </li>
+                 <li class="pdt20px font20px">
+                 	Tivoli Storage Manager 6 for Mail
+                    <ul>
+                    	<li class="pdt20px" style="font-size:15px;">
+                        	支持 Microsoft Exchange  和 IBM Domino。
+                        </li>
+                    </ul>
+                 </li>
+				<li class="pdt20px font20px">
+                 	Tivoli Storage Manager FlashCopy Manager
+                    <ul>
+                    	<li class="pdt20px" style="font-size:15px;">
+                        	支持点对点远程复制（PPRC）源卷的 FlashCopy 恢复;增强的 SAP 环境快照支持。
+                        </li>
+                        <li class="pdt20px" style="font-size:15px;">
+                        	通过 IBM SAN Volume Controller 的增量式 FlashCopy 支持，提高备份性能。
+                        </li>
+                    </ul>
+                 </li>
+                <li class="pdt20px font20px" style="margin-bottom:50px;">
+                 	Tivoli Storage Manager 6 for Space Management
+                    <ul>
+                    	<li class="pdt20px" style="font-size:15px;">
+                        	现在与 IBM General Parallel File System (GPFS) 配合使用时，Tivoli Storage Manager for Space Management 管理的文件可从一个存储池（例如，快速 RAID）转入另一个存储池（例如，较慢的 SATA 磁盘），而文件名及其目录和文件系统名将保持相同。
+                        </li>
+                    </ul>
+                 </li>
                 </ol>
+               
 			</div>
         </section>
         
@@ -229,11 +283,11 @@
 									<li>
 										<p>解决方案</p>
 									</li>
-									<li><a target="_blank" href="#">ADG数据灾备</a></li>
-                                    <li><a target="_blank" href="#">TSM数据灾备</a></li>
-                                    <li><a target="_blank" href="#">存储安全运维分析系统技术方案</a></li>
-                                    <li><a target="_blank" href="#">混合云产品介绍</a></li>
-                                    <li><a target="_blank" href="#">数据智能管理系统技术方案</a></li>
+									<li><a target="_blank" href="adg.html">ADG数据灾备</a></li>
+                                    <li><a target="_blank" href="tsm.html">TSM数据灾备</a></li>
+                                    <li><a target="_blank" href="safe.html">存储安全运维分析系统技术方案</a></li>
+                                    <li><a target="_blank" href="blend.html">混合云产品介绍</a></li>
+                                    <li><a target="_blank" href="data_manage.html">数据智能管理系统技术方案</a></li>
 								</ul>
 							</div>
 							<div class="col-xs-12 col-lg-4">
@@ -241,13 +295,13 @@
 									<li>
 										<p>产品中心</p>
 									</li>
-                                    <li><a target="_blank" href="#">Microsoft Azure</a></li>
-                                    <li><a target="_blank" href="#">Microsoft Office365</a></li>
-                                    <li><a target="_blank" href="#">Oracle 数据库公有云服务</a></li>
-                                    <li><a target="_blank" href="#">VmWare</a></li>
-                                    <li><a target="_blank" href="#">阿里云产品</a></li>
-                                    <li><a target="_blank" href="#">青云产品</a></li>
-                                    <li><a target="_blank" href="#">易讯通产品</a></li>
+                                    <li><a target="_blank" href="../product/azure.html">Microsoft Azure</a></li>
+                                    <li><a target="_blank" href="../product/office365.html">Microsoft Office365</a></li>
+                                    <li><a target="_blank" href="../product/oracle.html">Oracle 数据库公有云服务</a></li>
+                                    <li><a target="_blank" href="../product/vmware.html">VmWare</a></li>
+                                    <li><a target="_blank" href="../product/alibaba.html">阿里云产品</a></li>
+                                    <li><a target="_blank" href="../product/qingyun.html">青云产品</a></li>
+                                    <li><a target="_blank" href="../product/yixuntong.html">易讯通产品</a></li>
 								</ul>
 							</div>
 							<div class="col-xs-12 col-lg-4">
@@ -255,10 +309,9 @@
 									<li>
 										<p>关于信诚</p>
 									</li>
-									<li><a target="_blank" href="pages/about.html">公司简介</a></li>
-									<li><a target="_blank" href="pages/about.html#anli">成功案例</a></li>
-									<li><a target="_blank" href="pages/about.html#jiaru">加入信诚</a></li>
-									<li><a target="_blank" href="pages/about.html#lianxi">联系我们</a></li>
+									<li><a target="_blank" href="../introduction.html">公司简介</a></li>
+									<li><a target="_blank" href="../customer.html">成功案例</a></li>
+									<li><a target="_blank" href="../about.html">联系我们</a></li>
 								</ul>
 							</div>
 						</div>

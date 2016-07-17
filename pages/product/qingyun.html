@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>青云</title>
+    
+    <link href="../../plugins/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="../../css/carousel.css" rel="stylesheet">
+	<link href="../../css/demo.css" rel="stylesheet">
+    <link href="../../css/elian.css" rel="stylesheet">
+    <link href="../../css/shiguang.css" rel="stylesheet">
+    <link href="http://cdn.bootcss.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet">
+</head>
+
+<body>
+	<!-- Site Header -->
+    <div class="site-header bg-white">
+        <!-- Navbar -->
+        <div class="navbar" role="navigation">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="menu-container">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse"><i class="ion-navicon"></i></button>
+
+                    <!-- Navbar Brand -->
+                    <div class="navbar-brand">
+                        <a href="/">
+                            <img class="default-logo" src="../../images/logo.png" style="height:50px;width:250px;" alt="Logo" />
+                        </a>
+                    </div>
+                    <!-- End Navbar Brand -->
+
+                    <!-- End Header Inner Right -->
+                </div>
+                <!-- End Menu Container -->
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse navbar-responsive-collapse">
+                    <div class="menu-container">
+                        <ul class="nav navbar-nav navbar-right">
+                          <li><a href="../../index.html">首页</a></li>
+                            <li class="dropdown">
+                              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                云产品 <span class="caret"></span>
+                              </a>
+                              <ul class="dropdown-menu">
+                                <li><a href="azure.html">Microsoft Azure</a></li>
+                                <li><a href="office365.html">Microsoft Office365</a></li>
+                                <li><a href="oracle.html">Oracle 数据库公有云服务</a></li>
+                                <li><a href="vmware.html">VmWare</a></li>
+                                <li><a href="alibaba.html">阿里云产品</a></li>
+                                <li><a href="qingyun.html">青云产品</a></li>
+                                <li><a href="yixuntong.html">易讯通产品</a></li>
+                              </ul>
+                            </li>
+                            <li class="dropdown">
+                              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                解决方案 <span class="caret"></span>
+                              </a>
+                              <ul class="dropdown-menu">
+                                <li><a href="../plan/adg.html">ADG数据灾备</a></li>
+                                <li><a href="../plan/tsm.html">TSM数据灾备</a></li>
+                                <li><a href="../plan/safe.html">存储安全运维分析系统技术方案</a></li>
+                                <li><a href="../plan/blend.html">混合云产品介绍</a></li>
+                                <li><a href="../plan/data_manage.html">数据智能管理系统技术方案</a></li>
+                              </ul>
+                            </li>
+                            <li><a href="../service.html">支持服务</a></li>
+                            <li><a href="../customer.html">成功案例</a></li>
+                            <li><a href="../introduction.html">公司简介</a></li>
+                            <li><a href="../about.html">关于我们</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- .navbar-collapse-->
+            </div>
+        </div>
+        <!-- End Navbar -->
+    </div>
+    <!-- End Site Header -->
+		<section class="body-content" style="margin-top:100px;">
+            <div class="container">
+            	<div class="text-center" style="margin-bottom:50px;">
+                	<h1>青云</h1>
+              	</div>
+        		<div class="pdt20px" style="text-align: center;">
+                	<img src="../../images/qy1.png" style="text-align:center">
+                </div>
+                <h2>
+                    青云简介
+                </h2>
+                <ul>
+                    <li class="pdt20px font20px">
+                        青云是一个提供按需分配、弹性可伸缩的计算能力的公有云服务。通过使用青云， 您不必再为了软件开发、测试、以及应用/服务上线运行而购买物理设备了， 也不必投入人力物力进行设备维护。 您可以直接在青云中迅速得到任意您需要的计算、存储、网络、安全等方方面面的能力， 并可以随时调整它们的规模。
+                    </li>
+                    <li class="pdt20px font20px">
+                        青云执行按用量收费原则，即，您只需要为您使用了的资源付费。 而且，青云是按秒计费的，青云中的任何资源都是可以随时调整尺寸/规模的， 这最大程度地降低了您的费用、并为弹性计算提供了计费基础。
+                    </li>
+                </ul>
+                <h2>
+                    主要概念
+                </h2>
+                <blockquote>
+                    <p>
+                       为了便于后续使用，简要介绍几个主要的概念， 以及它们与您现有计算环境中元素的相同、相异点。
+                    </p>
+                </blockquote>
+                <ul class="margin-bottom50px">
+                	<li class="font20px">
+                    	映像和主机
+                        <ul>
+                            <li class="pdt20px font15px">
+                               映像（Image）是一个包含了软件及必要配置的机器模版。 作为基础软件，操作系统是必须的，您也可以根据自己的需求将任何应用软件 （比如，数据库、中间件等）放入映像中。
+                            </li>
+                            <li class="pdt20px font15px">
+                               映像分为两类。其一是青云官方提供的，称之为“系统映像”， 包括了各种 Linux、Windows 等操作系统， 各系统映像的初始本地终端用户名和密码均可在各映像的详情描述中找到。 其二是用户通过捕获一个主机来自行创建的，名为“自有映像”， （需要注意，主机在关机状态下才能被捕获为映像）。 系统映像全局可见可用，自有映像只有用户本人可见可用。
+                            </li>
+                            <li class="pdt20px font15px">
+                               主机（Instance）是以虚拟机器的形式运行在青云中的映像副本。 基于一个映像，您可以创建任意数量的主机。在创建主机时， 您需要指明 CPU 和内存的配置。青云允许您任意指定 CPU、内存的数量， 也允许您在主机创建之后随时再行调整。
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                
+                <ul class="margin-bottom50px">
+                	<li class="font20px">
+                    	区域
+                        <ul>
+                            <li class="pdt20px font15px">
+                               青云是一个多区域部署的服务。初始部署于北京，将逐步增加区域供应 （上海、广州等重点节点）。您可以在不同区域创建云资源（比如主机等）， 以迎合您不同的市场和客户，或者在多地进行均衡等。
+                            </li>
+                            <li class="pdt20px font15px">
+                               因为获取物理资源的成本不一，所以每个区域的价格都略有差异。 请查询价格列表，以了解更多。
+                            </li>
+                            
+                        </ul>
+                    </li>
+                </ul>
+                
+                <ul class="margin-bottom50px">
+                	<li class="font20px">
+                    	存储
+                        <ul>
+                            <li class="pdt20px font15px">
+                               正如物理世界中的硬盘，在青云中，硬盘（Volume）为主机提供块级的原始存储设备， 它独立于主机的生命周期而存在，可以被连接到任意运行中的主机上， 为主机提供持久化的、块级存储，并可以随时解除连接，转接至其他主机， 如此可以实现数据的快速转移。
+                            </li>
+                            <li class="pdt20px font15px">
+                               青云提供了两种规格的硬盘：容量型硬盘、性能型硬盘。 性能型硬盘的性能可达128MB/s，适用于对IO要求较高的应用，例如数据库等在线业务; 容量型硬盘拥有更大的单块硬盘容积，最高可达5TB，适用于对容量要求较高的应用，例如文档存储等离线业务。
+                            </li>
+                            <li class="pdt20px font15px">
+                               除了硬盘，青云还提供了备份服务。备份（Snapshot）用于在块设备级别（block device level）上进行硬盘的备份与恢复， 可以同时对多张硬盘做备份（包括系统盘和数据盘），也可以对正在运行的主机做在线备份。 一张硬盘可以有多个备份链，每条备份链包括一个全量备份点以及多个增量备份点，您可以随时从任意一个备份点恢复数据。
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                
+                <ul class="margin-bottom50px">
+                	<li class="font20px">
+                    	网络
+                        <ul>
+                            <li class="pdt20px font15px">
+                               青云提供了两种组网方式：基础网络、私有网络（VxNet）。 前者是一个由青云系统维护的全局网络，后者是用户各自自行组建的网络
+                            </li>
+                            <li class="pdt20px font15px">
+                               基础网络的好处是简单、无需用户做任何配置与管理，即可直接使用， 但正因为它是全局网络，所以其安全保障是依靠防火墙（Security Group）来实现的。 与之相对应，私有网络需要用户创建并管理 （当然，为了简化管理，青云提供了路由器来帮助用户）， 但私有网络之间是100%隔离的，以满足对安全的100%追求。
+                            </li>
+                            <li class="pdt20px font15px">
+                               私有网络类似物理世界中使用交换机（L2 Switch）将多台服务器连接在一起， 组成的局域网。它有两种管理方式：受管（Managed）、自管（Unmanaged）。 路由器用于多个受管私有网络之间互联，并提供三项附加服务： DHCP 服务、端口转发、VPN 隧道服务，涵盖了常用的网络配置与管理工作。 如果青云提供的路由器功能无法满足您对网络管理的需求， 您可以创建自管私有网络，并自行配置和管理该网络。
+                            </li>
+                            <li class="pdt20px font15px">
+                               公网 IP 地址是在互联网上合法的静态 IP 地址。 在青云系统中，公网 IP 地址与您的账户而非特定的资源（主机或路由器）关联， 您可以将申请到的公网 IP 地址分配到任意位于基础网络中的资源， 并随时可以解绑、再分配到其他资源，如此可以快速替换您的对外资源。
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                
+                <ul class="margin-bottom50px">
+                	<li class="font20px">
+                    	安全
+                        <ul>
+                            <li class="pdt20px font15px">
+                               为了加强位于基础网络中的主机或路由器的安全性， 可以在主机或路由器之前放置一个防火墙 (Security Group)。 青云为每个用户创建了一个缺省防火墙，当然，您也可以新建任意多的防火墙。 初始状态下，缺省防火墙放开了 TCP 下行22号端口和 ICMP for ping， 其他防火墙都不包含任何规则，即全部端口都是封闭的。 您可以任意调整规则以满足您的安全需求。
+                            </li>
+                            <li class="pdt20px font15px">
+                               为了提高安全性，保护您的主机，用户名密码的登录方式仅限于使用青云远程终端 （即，相当于您直接面对着主机的显示器），不允许用于 SSH 登录。 SSH 登录只接受 SSH 公钥私钥加密体系验证身份。 虽然您可以自行打开 SSH 密码登录方式，但是非常不推荐您这么做。
+                            </li>
+                             <blockquote>
+                                <p>
+                                   注解：  SSH 登录不适用于 Windows 和老内核的 Linux，比如 CentOS 5.8 等。
+                                </p>
+                            </blockquote>
+                        </ul>
+                    </li>
+                </ul>
+                
+                <ul class="margin-bottom50px">
+                	<li class="font20px">
+                    	资源监控
+                        <ul>
+                            <li class="pdt20px font15px">
+                               您使用的主机、硬盘以及网络资源都有监控， 您可以很方便的了解系统运行情况以及分析和定位问题。监控信息分不同的粒度， 从一分钟到一年的历史数据都有，并且还有10秒钟级别的实时数据。
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="pdt20px" style="text-align: center;">
+                	<img src="../../images/qy2.png" style="text-align:center">
+                </div>
+                <h2>
+                    如何使用青云
+                </h2>
+                <blockquote>
+                    <p>
+                       我们提供了多种方式来使用青云的各项服务。
+                    </p>
+                </blockquote>
+                
+                <ul class="margin-bottom50px">
+                	<li class="font20px">
+                    	图形界面工具
+                        <ul>
+                            <li class="pdt20px font15px">
+                               为了便于大家使用，青云提供了一个<a href="https://console.qingcloud.com/"> WEB 控制台</a>。
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="margin-bottom50px">
+                	<li class="font20px">
+                    	命令行工具
+                        <ul>
+                            <li class="pdt20px font15px">
+                               命令行工具<a href="https://docs.qingcloud.com/api/common/cli/index.html"> CLI </a>可以让用户更方便地使用我们的 API 接口。
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="margin-bottom50px">
+                	<li class="font20px">
+                    	APIs
+                        <ul>
+                            <li class="pdt20px font15px">
+                               青云开放所有<a href="https://console.qingcloud.com/"> API </a> 以方便用户更高效地使用青云，并鼓励在青云基础上搭建更丰富的上层平台。
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                
+                <h2>
+                   充值与计费
+                </h2>
+                <ul class="margin-bottom50px">
+                	<li class="pdt20px font20px">
+                    	青云支持在线充值和银行转账，您可以自行选择付款方式。如果需要发票，请到 <a href="https://www.qingcloud.com/account/invoices"> 发票管理 </a> 提出申请。
+                    </li>
+                    <li class="pdt20px font20px">
+                    	青云执行按用量收费原则，即，您只需要为您使用了的资源付费，并且计费是按秒进行的，并且不设最低消费指标。
+                    </li>
+                    <li class="pdt20px font20px">
+                    	您随时可以在 WEB 控制台中查看 <a href="https://console.qingcloud.com/console/consumptions"> 消费记录 </a> 。
+                    </li>
+                </ul>
+               
+               	<h2>
+                   服务限制
+                </h2>
+                <blockquote>
+                    <p>
+                       为了保证每个用户都得到公平的计算能力，并防止恶意使用，青云系统有如下整体限制
+                    </p>
+                </blockquote>
+                <ul class="margin-bottom50px">
+                	<li class="pdt20px font20px">
+                    	磁盘 IO 限制为 128 MB/s
+                    </li>
+                    <li class="pdt20px font20px">
+                    	内部网络带宽限制为 512 Mbps，峰值为 1 Gbps
+                    </li>
+                    <li class="pdt20px font20px">
+                    	从资源数量角度，每个用户可以使用 5个主机、5个自有映像、5个容量型硬盘、5个性能型硬盘、 10个SSH密钥、10个防火墙、5个私有网络、2个路由器、2个公网IP、2个负载均衡器
+                    </li>
+                    <li class="pdt20px font20px">
+                    	从元件角度，每个用户可以使用 10个 CPU、20GB 内存，10Mbps 的带宽，500GB 的容量型硬盘，500GB 的性能型硬盘
+                    </li>
+                    <li class="pdt20px font20px">
+                    	以上限制均为全局设定，其目的仅仅是为了防止资源滥用，如果您需要超过这些限制的计算能力， <a href="https://www.qingcloud.com/about/contact_us"> 与我们联系 </a> 即可扩大指标。 
+                    </li>
+                </ul>
+               
+                <h2>
+                   账号安全
+                </h2>
+                <blockquote>
+                    <p>
+                       用户在青云上的资源是重要的 IT 资产，因此青云非常重视用户账号的安全性。您可以在青云系统的账号安全中心管理和强化账号的安全属性，包括
+                    </p>
+                </blockquote>
+                <ul class="margin-bottom50px">
+                	<li class="pdt20px font20px">
+                    	修改登录密码
+                    </li>
+                    <li class="pdt20px font20px">
+                    	开启除密码登录外的二次认证策略
+                    </li>
+                    <li class="pdt20px font20px">
+                    	账号多次密码登录失败、二次认证口令失败时的短信通知
+                    </li>
+                    <li class="pdt20px font20px">
+                    	关闭浏览器的会话保持，临时登录系统后退出浏览器，不记录登录状态
+                    </li>
+                </ul>
+                <h2>
+                   青云 QingCloud 智能云基础架构管理平台
+                </h2>
+                <div class="pdt20px" style="text-align: center;">
+                	<img src="../../images/qy3.png" style="text-align:center">
+                </div>
+                <h2>
+                   青云智能云基础架构平台
+                </h2>
+                <div class="pdt20px" style="text-align: center;">
+                	<img src="../../images/qy4.png" style="text-align:center">
+                </div>
+                <h2>
+                   QingCloud 技术优势
+                </h2>
+                <div class="pdt20px" style="text-align: center;">
+                	<img src="../../images/qy5.png" style="text-align:center">
+                </div>
+                <h2>
+                   技术与产品 RoadMap
+                </h2>
+                <div class="pdt20px margin-bottom50px" style="text-align: center;">
+                	<img src="../../images/qy6.png" style="text-align:center">
+                </div>
+			</div>
+        </section>
+        
+        
+        <!--foot-->
+		<!--公共脚部 -->
+		<section class="elian-footer" style="background: #ECECEC; padding-top: 20px;">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-6 col-lg-6">
+						<div class="row">
+							<div class="col-xs-12 col-lg-4">
+								<ul>
+									<li>
+										<p>解决方案</p>
+									</li>
+									<li><a target="_blank" href="../plan/adg.html">ADG数据灾备</a></li>
+                                    <li><a target="_blank" href="../plan/tsm.html">TSM数据灾备</a></li>
+                                    <li><a target="_blank" href="../plan/safe.html">存储安全运维分析系统技术方案</a></li>
+                                    <li><a target="_blank" href="../plan/blend.html">混合云产品介绍</a></li>
+                                    <li><a target="_blank" href="../plan/data_manage.html">数据智能管理系统技术方案</a></li>
+								</ul>
+							</div>
+							<div class="col-xs-12 col-lg-4">
+								<ul>
+									<li>
+										<p>产品中心</p>
+									</li>
+                                    <li><a target="_blank" href="azure.html">Microsoft Azure</a></li>
+                                    <li><a target="_blank" href="office365.html">Microsoft Office365</a></li>
+                                    <li><a target="_blank" href="oracle.html">Oracle 数据库公有云服务</a></li>
+                                    <li><a target="_blank" href="vmware.html">VmWare</a></li>
+                                    <li><a target="_blank" href="alibaba.html">阿里云产品</a></li>
+                                    <li><a target="_blank" href="qingyun.html">青云产品</a></li>
+                                    <li><a target="_blank" href="yixuntong.html">易讯通产品</a></li>
+								</ul>
+							</div>
+							<div class="col-xs-12 col-lg-4">
+								<ul>
+									<li>
+										<p>关于信诚</p>
+									</li>
+									<li><a target="_blank" href="../introduction.html">公司简介</a></li>
+									<li><a target="_blank" href="../customer.html">成功案例</a></li>
+									<li><a target="_blank" href="../about.html">联系我们</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-xs-6 col-lg-6">
+						<div class="row">
+							<div class="col-xs-12 col-lg-6">
+								<ul>
+									<li class="code_size">
+										<img src="../../images/qrcode.jpg" />
+										<p style="margin-left: 10%;margin-top:5%">信诚官网微信</p>
+									</li>
+								</ul>
+							</div>
+							<div class="col-xs-12 col-lg-6">
+								<ul>
+									<li class="code_size">
+										<img src="../../images/qrcode.jpg" />
+										<p style="margin-left: 10%;margin-top:5%">信诚官方微信</p>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-12 coryright">
+							<ul>
+								<li>Copyright © 北京荣智信诚科技发展有限公司版权所有 备案许可证： <a target="_blank" href="http://www.miitbeian.gov.cn/" hidefocus="true">京ICP备123456789号</a></li>
+                                <p class="pull-right"><a href="#">返回顶部</a></p>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--end 公共脚部 -->
+        <script src="../../js/jquery-3.0.0.min.js"></script>
+        <script src="../../plugins/bootstrap-3.3.5/js/bootstrap.min.js"></script>	
+</body>
+</html>

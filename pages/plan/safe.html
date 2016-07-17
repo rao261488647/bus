@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>存储安全运维分析系统技术方案</title>
+    
+    <link href="../../plugins/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="../../css/carousel.css" rel="stylesheet">
+	<link href="../../css/demo.css" rel="stylesheet">
+    <link href="../../css/elian.css" rel="stylesheet">
+    <link href="../../css/shiguang.css" rel="stylesheet">
+    <link href="http://cdn.bootcss.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet">
+</head>
+
+<body>
+	<!-- Site Header -->
+    <div class="site-header bg-white">
+        <!-- Navbar -->
+        <div class="navbar" role="navigation">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="menu-container">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse"><i class="ion-navicon"></i></button>
+
+                    <!-- Navbar Brand -->
+                    <div class="navbar-brand">
+                        <a href="/">
+                            <img class="default-logo" src="../../images/logo.png" style="height:50px;width:250px;" alt="Logo" />
+                        </a>
+                    </div>
+                    <!-- End Navbar Brand -->
+
+                    <!-- End Header Inner Right -->
+                </div>
+                <!-- End Menu Container -->
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse navbar-responsive-collapse">
+                    <div class="menu-container">
+                        <ul class="nav navbar-nav navbar-right">
+                          <li><a href="../../index.html">首页</a></li>
+                            <li class="dropdown">
+                              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                云产品 <span class="caret"></span>
+                              </a>
+                              <ul class="dropdown-menu">
+                                <li><a href="../product/azure.html">Microsoft Azure</a></li>
+                                <li><a href="../product/office365.html">Microsoft Office365</a></li>
+                                <li><a href="../product/oracle.html">Oracle 数据库公有云服务</a></li>
+                                <li><a href="../product/vmware.html">VmWare</a></li>
+                                <li><a href="../product/alibaba.html">阿里云产品</a></li>
+                                <li><a href="../product/qingyun.html">青云产品</a></li>
+                                <li><a href="../product/yixuntong.html">易讯通产品</a></li>
+                              </ul>
+                            </li>
+                            <li class="dropdown">
+                              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                解决方案 <span class="caret"></span>
+                              </a>
+                              <ul class="dropdown-menu">
+                                <li><a href="adg.html">ADG数据灾备</a></li>
+                                <li><a href="tsm.html">TSM数据灾备</a></li>
+                                <li><a href="safe.html">存储安全运维分析系统技术方案</a></li>
+                                <li><a href="blend.html">混合云产品介绍</a></li>
+                                <li><a href="data_manage.html">数据智能管理系统技术方案</a></li>
+                              </ul>
+                            </li>
+                            <li><a href="../service.html">支持服务</a></li>
+                            <li><a href="../customer.html">成功案例</a></li>
+                            <li><a href="../introduction.html">公司简介</a></li>
+                            <li><a href="../about.html">关于我们</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- .navbar-collapse-->
+            </div>
+        </div>
+        <!-- End Navbar -->
+    </div>
+    <!-- End Site Header -->
+		<section class="body-content" style="margin-top:100px;">
+            <div class="container">
+            	<div class="text-center" style="margin-bottom:50px;">
+                        <h1>存储安全运维分析系统技术方案</h1>
+                </div>
+                <h2>
+                    产品介绍
+                </h2>
+                <blockquote>
+                    <p>
+                        云存储生命周期管理系统产品，它以业界存储资源管理方法论为基础，结合客户的存储运维管理经验，研发了独特的I/O全数据路径分析、资源热点视图、光纤网络视图、设备故障告警、运行状态一览、智能数据报表等功能，并将磁盘阵列厂商如IBM、EMC、HP、HDS、SUN、NetApp、Infotrend等，光纤交换机厂商如 Brocade、Cisco等，存储主机厂商如IBM AIX、HP-UX、SUN Solaris、Windows、Linux等存储资源纳入监控管理和分析范围，为客户提供了统一的异构存储环境下的运维管理解决方案。
+云存储生命周期管理系统不仅是存储资源管理系统，更是一套统一的存储运维分析的平台。
+                    </p>
+                </blockquote>
+                <ol>
+                    <li style="font-size:15px;">
+                        简单易用是我们的理念。
+                    </li>
+                    <li class="pdt20px" style="font-size:15px;">
+                        辅助存储运维管理分析是我们的目标。
+                    </li>
+                </ol>
+                
+                <h2>
+                    产品亮点
+                </h2>
+                <ol>
+                    <li class="pdt20px" style="font-size:15px;">
+                        全面的异构存储网络管理方案。
+                    </li>
+                    <li class="pdt20px" style="font-size:15px;">
+                        基于业务而非单存储设备的管理。
+                    </li>
+                    <li class="pdt20px" style="font-size:15px;">
+                        有效的故障预判和故障定位能力。
+                    </li>
+                    <li class="pdt20px" style="font-size:15px;">
+                        多年积累的运维分析方法工具和报表。
+                    </li>
+                    <li class="pdt20px" style="font-size:15px;">
+                        轻量级设计，使用简单精致，低维护成本。
+                    </li>
+                </ol>
+                <h2>
+                    对比优势
+                </h2>
+                <ol>
+                    <li class="pdt20px" style="font-size:15px;">
+                        全自主软件，拥有全部支持产品，安全可控。
+                    </li>
+                    <li class="pdt20px" style="font-size:15px;">
+                        在能源、电信、金融等行业广泛应用，功能稳定可靠。
+                    </li>
+                    <li class="pdt20px" style="font-size:15px;">
+                        结合业务的多种场景分析，并非简单的存储指标收集。
+                    </li>
+                    <li class="pdt20px" style="font-size:15px;">
+                        丰富的告警知识库功能，积累了多年行业经验。
+                    </li>
+                    <li class="pdt20px" style="font-size:15px;">
+                        开放的数据接口，可为各种系统调用。
+                    </li>
+                    <li class="pdt20px" style="font-size:15px;">
+                        对国产存储设备（华为、同有、浪潮等）有较好的支持。
+                    </li>
+                    <li class="pdt20px" style="font-size:15px;">
+                        快速的响应能力，可为客户提供定制化开发。
+                    </li>
+                    <li class="pdt20px" style="font-size:15px;">
+                        全面的存储监控管理能力，覆盖存储及周边设备。
+                    </li>
+                </ol>
+                <div class="pdt20px" style="text-align: center;">
+                	<img src="../../images/safe1.png" style="text-align:center">
+                </div>
+                <h2>
+                    异构环境下的系统和存储管理
+                </h2>
+                <div class="pdt20px" style="text-align: center;">
+                	<img src="../../images/safe2.png" style="text-align:center">
+                </div>
+                <h2>
+                	业务需求分析
+                </h2>
+                <blockquote>
+                    <p>
+                      IT部门最想知道的几个问题:
+                    </p>
+                </blockquote>
+                <div class="pdt20px" style="text-align: center;">
+                	<img src="../../images/safe3.png" style="text-align:center">
+                </div>
+               
+                <h2>
+                	企业通常的存储管理现状
+                </h2>
+                <div class="pdt20px" style="text-align: center;">
+                	<img src="../../images/safe4.png" style="text-align:center">
+                </div>
+                <h2>
+                	期望达到的收益
+                </h2>
+                <ol>
+                 <li class="pdt20px font20px">降低运维风险
+                 	<ul>
+                    	<li class="pdt20px" style="font-size:15px;">
+                        	能第一时间发现系统故障，提高响应速度，减少故障影响。
+                        </li>
+                    </ul>
+                 </li>
+                 <li class="pdt20px font20px">提高服务水平
+                 	<ul>
+                    	<li class="pdt20px" style="font-size:15px;">
+                        	能够预判和定位光纤链路故障，防患于未然。
+                        </li>
+                    </ul>
+                 </li>
+                 <li class="pdt20px font20px">提高资源利用率
+                 	<ul>
+                    	<li class="pdt20px" style="font-size:15px;">
+                        	全数据生命周期管理，提高资源利用率。
+                        </li>
+                    </ul>
+                 </li>
+                 <li class="pdt20px font20px">提高管理效率
+                 	<ul>
+                    	<li class="pdt20px" style="font-size:15px;">
+                        	实现了SAN网络整体存储设备的统一管理。
+                        </li>
+                    </ul>
+                 </li>
+                 <li class="pdt20px font20px">降低运维成本
+                 	<ul>
+                    	<li class="pdt20px" style="font-size:15px;">
+                        	自动化设备基本数据和运行状态监控，实现电子化运维。
+                        </li>
+                    </ul>
+                 </li>
+                 <li class="pdt20px font20px">提升分析能力
+                 	<ul>
+                    	<li class="pdt20px" style="font-size:15px;">
+                        	丰富的报表功能大大提高了维护人员的工作效率。
+                        </li>
+                    </ul>
+                 </li>
+                 <li class="pdt20px font20px">决策有据可依
+                 	<ul>
+                    	<li class="pdt20px" style="font-size:15px;">
+                        	容量规划、IO瓶颈分析、场景分析等。
+                        </li>
+                    </ul>
+                 </li>
+                </ol>
+                <h2>
+                	设备告警全面化
+                </h2>
+                <ul>
+                 <li class="pdt20px font20px">项目建设之前
+                 	<ol>
+                    	<li class="pdt20px" style="font-size:15px;">
+                        	存储系统没有有效故障告警。
+                        </li>
+                        <li class="pdt20px" style="font-size:15px;">
+                        	缺少性能和容量告警。
+                        </li>
+                        <li class="pdt20px" style="font-size:15px;">
+                        	故障发生之后难以定位，没有故障统计和分析的工具。
+                        </li>
+                        <li class="pdt20px" style="font-size:15px;">
+                        	缺乏故障的关联分析。
+                        </li>
+                    </ol>
+                 </li>
+                 <li class="pdt20px font20px">项目建设之后
+                 	<ol>
+                    	<li class="pdt20px" style="font-size:15px;">
+                        	全面监控磁盘阵列、光纤交换机的故障告警。
+                        </li>
+                        <li class="pdt20px" style="font-size:15px;">
+                        	与综合监控子系统集成，进行告警统一管理。
+                        </li>
+                        <li class="pdt20px" style="font-size:15px;">
+                        	通过短信、邮件等方式通知运维人员能力。
+                        </li>
+                    </ol>
+                 </li>
+                </ul>
+                <h2>
+                	存储设备巡检电子化
+                </h2>
+                <ul>
+                 <li class="pdt20px font20px">项目建设之前
+                 	<ol>
+                    	<li class="pdt20px" style="font-size:15px;">
+                        	维护手段还停留在监控硬件故障灯层面，不清楚内部状态。
+                        </li>
+                        <li class="pdt20px" style="font-size:15px;">
+                        	依靠设备厂商运维巡检，存储监控没有常态化。
+                        </li>
+                    </ol>
+                 </li>
+                 <li class="pdt20px font20px">项目建设之后
+                 	<ol>
+                    	<li class="pdt20px" style="font-size:15px;">
+                        	全面监控设备部件状态。
+                        </li>
+                        <li class="pdt20px" style="font-size:15px;">
+                        	自动分析设备部件状态的影响。
+                        </li>
+                        <li class="pdt20px" style="font-size:15px;">
+                        	提高故障预知和保障能力。
+                        </li>
+                    </ol>
+                 </li>
+                </ul>
+                <h2>
+                	设备资产数据自动化
+                </h2>
+                <ul>
+                 <li class="pdt20px font20px">项目建设之前
+                 	<ol>
+                    	<li class="pdt20px" style="font-size:15px;">
+                        	运维人员利用电子表格手工维护部分设备配置信息，内容不全且容易出错。
+                        </li>
+                        <li class="pdt20px" style="font-size:15px;">
+                        	配置发生变更，电子表格难以同步更新。
+                        </li>
+                    </ol>
+                 </li>
+                 <li class="pdt20px font20px">项目建设之后
+                 	<ol>
+                    	<li class="pdt20px" style="font-size:15px;">
+                        	自动采集设备配置信息，随时可查。
+                        </li>
+                        <li class="pdt20px" style="font-size:15px;">
+                        	配置信息定期更新，变更可控。
+                        </li>
+                    </ol>
+                 </li>
+                </ul>
+                <h2>
+                	存储网络可视化
+                </h2>
+                <ul>
+                 <li class="pdt20px font20px">项目建设之前
+                 	<ol>
+                    	<li class="pdt20px" style="font-size:15px;">
+                        	SAN端到端拓扑是个“黑盒子”，运维人员不清楚具体链路连接。
+                        </li>
+                        <li class="pdt20px" style="font-size:15px;">
+                        	SAN拓扑需手工查询与绘制，费时费力。
+                        </li>
+                    </ol>
+                 </li>
+                 <li class="pdt20px font20px">项目建设之后
+                 	<ol>
+                    	<li class="pdt20px" style="font-size:15px;">
+                        	拓扑自动生成，图形化展示。
+                        </li>
+                        <li class="pdt20px" style="font-size:15px;">
+                        	拓扑可显示告警、性能和配置。
+                        </li>
+                        <li class="pdt20px" style="font-size:15px;">
+                        	提供3级拓扑，支持数据路径分析。
+                        </li>
+                    </ol>
+                 </li>
+                </ul>
+                <h2>
+                	规划管理科学化
+                </h2>
+                <ul>
+                 <li class="pdt20px font20px">项目建设之前
+                 	<ol>
+                    	<li class="pdt20px" style="font-size:15px;">
+                        	存储系统没有有效故障告警。
+                        </li>
+                        <li class="pdt20px" style="font-size:15px;">
+                        	不清楚存储容量是否满足业务需求。
+                        </li>
+                        <li class="pdt20px" style="font-size:15px;">
+                        	二级资源遗漏造成投资浪费。
+                        </li>
+                    </ol>
+                 </li>
+                 <li class="pdt20px font20px">项目建设之后
+                 	<ol>
+                    	<li class="pdt20px" style="font-size:15px;">
+                        	管理存储阵列、服务器等容量分配和使用。
+                        </li>
+                        <li class="pdt20px" style="font-size:15px;">
+                        	管理存储阵列、交换机端口等二级资源。
+                        </li>
+                        <li class="pdt20px" style="font-size:15px;">
+                        	实时查看资源使用情况，以及容量预测。
+                        </li>
+                    </ol>
+                 </li>
+                </ul>
+                <h2>
+                	数据报表分析常态化
+                </h2>
+                <ul>
+                 <li class="pdt20px font20px">项目建设之前
+                 	<ol>
+                    	<li class="pdt20px" style="font-size:15px;">
+                        	运维人员不了解设备性能状况，不知道是否存在性能瓶颈。
+                        </li>
+                        <li class="pdt20px" style="font-size:15px;">
+                        	缺少历史监控数据，无法量化分析。
+                        </li>
+                        <li class="pdt20px" style="font-size:15px;">
+                        	手工编写存储系统运行周报、月报，费时费力。
+                        </li>
+                    </ol>
+                 </li>
+                 <li class="pdt20px font20px">项目建设之后
+                 	<ol>
+                    	<li class="pdt20px" style="font-size:15px;">
+                        	专业性能分析报告，准确定位性能瓶颈。
+                        </li>
+                        <li class="pdt20px" style="font-size:15px;">
+                        	基于历史监控数据进行统计,真实准确。
+                        </li>
+                        <li class="pdt20px" style="font-size:15px;">
+                        	提供众多关键KPI指标，满足各种统计需求。
+                        </li>
+                        <li class="pdt20px" style="font-size:15px;">
+                        	内置智能报表引擎,即刻生成所需报表。
+                        </li>
+                    </ol>
+                 </li>
+                </ul>
+                <div class="pdt20px" style="text-align: center;">
+                	<img src="../../images/safe5.png" style="text-align:center">
+                </div>
+                
+                <h2>
+                	总体架构
+                </h2>
+                <div class="pdt20px" style="text-align: center;">
+                	<img src="../../images/safe6.png" style="text-align:center">
+                </div>
+                
+                <h2>
+                	部署架构
+                </h2>
+                <div class="pdt20px" style="text-align: center;">
+                	<img src="../../images/safe7.png" style="text-align:center">
+                </div>
+                
+                <h2>
+                	兼容列表（Support List）
+                </h2>
+                <div class="pdt20px" style="text-align: center;">
+                	<img src="../../images/safe8.png" style="text-align:center">
+                </div>
+                <h2>
+                	系统总览
+                </h2>
+                <div class="pdt20px" style="text-align: center;">
+                	<img src="../../images/safe9.png" style="text-align:center">
+                </div>
+                <h2>
+                	全IO路径分析
+                </h2>
+                <div class="pdt20px" style="text-align: center;">
+                	<img src="../../images/safe10.png" style="text-align:center">
+                </div>
+                <div class="pdt20px" style="text-align: center;">
+                	<img src="../../images/safe11.png" style="text-align:center">
+                </div>
+                <h2>
+                	存储系统监控
+                </h2>
+                <div class="pdt20px" style="text-align: center;">
+                	<img src="../../images/safe12.png" style="text-align:center">
+                </div>
+                <div class="pdt20px" style="text-align: center;">
+                	<img src="../../images/safe13.png" style="text-align:center">
+                </div>
+                <div class="pdt20px" style="text-align: center;">
+                	<img src="../../images/safe16.png" style="text-align:center">
+                </div>
+                <h2>
+                	集中的告警平台
+                </h2>
+                
+                <div class="pdt20px" style="text-align: center;">
+                	<img src="../../images/safe14.png" style="text-align:center">
+                </div>
+                <div class="pdt20px" style="text-align: center; margin-bottom:50px;">
+                	<img src="../../images/safe15.png" style="text-align:center">
+                </div>
+			</div>
+        </section>
+        
+        
+        <!--foot-->
+		<!--公共脚部 -->
+		<section class="elian-footer" style="background: #ECECEC; padding-top: 20px;">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-6 col-lg-6">
+						<div class="row">
+							<div class="col-xs-12 col-lg-4">
+								<ul>
+									<li>
+										<p>解决方案</p>
+									</li>
+									<li><a target="_blank" href="adg.html">ADG数据灾备</a></li>
+                                    <li><a target="_blank" href="tsm.html">TSM数据灾备</a></li>
+                                    <li><a target="_blank" href="safe.html">存储安全运维分析系统技术方案</a></li>
+                                    <li><a target="_blank" href="blend.html">混合云产品介绍</a></li>
+                                    <li><a target="_blank" href="data_manage.html">数据智能管理系统技术方案</a></li>
+								</ul>
+							</div>
+							<div class="col-xs-12 col-lg-4">
+								<ul>
+									<li>
+										<p>产品中心</p>
+									</li>
+                                    <li><a target="_blank" href="../product/azure.html">Microsoft Azure</a></li>
+                                    <li><a target="_blank" href="../product/office365.html">Microsoft Office365</a></li>
+                                    <li><a target="_blank" href="../product/oracle.html">Oracle 数据库公有云服务</a></li>
+                                    <li><a target="_blank" href="../product/vmware.html">VmWare</a></li>
+                                    <li><a target="_blank" href="../product/alibaba.html">阿里云产品</a></li>
+                                    <li><a target="_blank" href="../product/qingyun.html">青云产品</a></li>
+                                    <li><a target="_blank" href="../product/yixuntong.html">易讯通产品</a></li>
+								</ul>
+							</div>
+							<div class="col-xs-12 col-lg-4">
+								<ul>
+									<li>
+										<p>关于信诚</p>
+									</li>
+									<li><a target="_blank" href="../introduction.html">公司简介</a></li>
+									<li><a target="_blank" href="../customer.html">成功案例</a></li>
+									<li><a target="_blank" href="../about.html">联系我们</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-xs-6 col-lg-6">
+						<div class="row">
+							<div class="col-xs-12 col-lg-6">
+								<ul>
+									<li class="code_size">
+										<img src="../../images/qrcode.jpg" />
+										<p style="margin-left: 10%;margin-top:5%">信诚官网微信</p>
+									</li>
+								</ul>
+							</div>
+							<div class="col-xs-12 col-lg-6">
+								<ul>
+									<li class="code_size">
+										<img src="../../images/qrcode.jpg" />
+										<p style="margin-left: 10%;margin-top:5%">信诚官方微信</p>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-12 coryright">
+							<ul>
+								<li>Copyright © 北京荣智信诚科技发展有限公司版权所有 备案许可证： <a target="_blank" href="http://www.miitbeian.gov.cn/" hidefocus="true">京ICP备123456789号</a></li>
+                                <p class="pull-right"><a href="#">返回顶部</a></p>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--end 公共脚部 -->
+        <script src="../../js/jquery-3.0.0.min.js"></script>
+        <script src="../../plugins/bootstrap-3.3.5/js/bootstrap.min.js"></script>	
+</body>
+</html>

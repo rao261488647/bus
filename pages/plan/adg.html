@@ -11,7 +11,7 @@
 	<link href="../../css/demo.css" rel="stylesheet">
     <link href="../../css/elian.css" rel="stylesheet">
     <link href="../../css/shiguang.css" rel="stylesheet">
-    <link href="http://cdn.bootcss.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet">
+    <link href="../../css/ionicons.min.css" rel="stylesheet">
 </head>
 
 <body>
@@ -102,7 +102,9 @@
                 <h2>
                     Oracle Data Guard结构概述
                 </h2>
-                <img src="../../images/adg.png">
+                <div class="pdt20px" style="text-align: center;">
+                    <img src="../../images/adg.png">
+                </div>
                 <p style="font-size:15px;">
                 	Oracle Data Guard包括一个生产数据库，也称为主数据库，以及一个或多个备用数据库，这些备用数据库是与主数据库在事务上一致的副本。Data Guard利用重做数据保持这种事务一致性。当主数据库中发生事务时，则生成重做数据并将其写入本地重做日志文件中。通过Data Guard，还将重做数据传输到备用站点上，并应用到备用数据库中，从而使备用数据库与主数据库保持同步。Data Guard允许管理员选择将重做数据同步还是异步地发送到备用站点上。
                 </p>

@@ -362,11 +362,22 @@ fieldset[disabled] .btn-app-green-outline:focus {
 	padding-top: 20px;
 }
 
+.lineheight2{
+	line-height:2;
+}
+
+.textindent2em{
+	text-indent:2em;
+}
+
 .font20px{
 	font-size: 20px;
+	line-height:2;
+	
 }
 .font15px{
 	font-size: 15px;
+	line-height:2;
 }
 
 .text-center{
@@ -374,4 +385,8 @@ fieldset[disabled] .btn-app-green-outline:focus {
 }
 .margin-bottom50px{
 	margin-bottom:50px;
+}
+
+blockquote p{
+	line-height:2;
 }

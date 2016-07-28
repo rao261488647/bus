@@ -390,3 +390,5 @@ fieldset[disabled] .btn-app-green-outline:focus {
 blockquote p{
 	line-height:2;
 }
+
+.navbar-brand { width: 280px; }
